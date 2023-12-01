@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1054100823768",
+    "project_id": "high-point-mobile-app",
+    "storage_bucket": "high-point-mobile-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054100823768:android:eddd236873255a829f81ad",
+        "android_client_info": {
+          "package_name": "com.method.highpoint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054100823768-ftvnmdne2cv04j16kngqr38kam6rng35.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlVnH9d6XAA6FfjQezngDs_jhUMh0D88M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054100823768-ftvnmdne2cv04j16kngqr38kam6rng35.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

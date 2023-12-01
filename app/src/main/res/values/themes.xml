@@ -1,0 +1,48 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.HighPoint" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">#F04F52</item>-->
+        <item name="colorPrimaryVariant">#BA1A1A</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">#775654</item>
+        <item name="colorSecondaryVariant">#735A2E</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor">@color/black</item>
+    </style>
+
+    <style name="colorAccentStyle">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="Theme.HighPoint.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_inset</item>
+        <item name="windowSplashScreenBackground">@color/hp_primary</item>
+        <item name="postSplashScreenTheme">@style/Theme.HighPoint</item>
+    </style>
+
+    <style name="BottomSheetShareTheme" parent="Theme.Design.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetShareStyle</item>
+    </style>
+
+    <style name="BottomSheetShareStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/item_select_background</item>
+    </style>
+
+    <style name="HPDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="HighPointChip" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@drawable/chip_background_color_select</item>
+        <item name="chipStrokeColor">@drawable/chip_stroke_color_select</item>
+        <item name="chipStrokeWidth">1dp</item>
+    </style>
+
+</resources>

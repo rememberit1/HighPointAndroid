@@ -1,0 +1,31 @@
+package com.method.highpoint.model.signin
+
+data class CaptureUser(
+    val aboutMe: Any,
+    val birthday: Any,
+    val clients: List<Client>,
+    val company: Any,
+    val created: String,
+    val currentLocation: Any,
+    val deactivateAccount: Any,
+    val display: Any,
+    val displayName: String,
+    val email: String,
+    val emailVerified: Any,
+    val externalId: Any,
+    val familyName: String,
+    val gender: String,
+    val givenName: String,
+    val id: Int,
+    val janrain: Janrain,
+    val lastLogin: String,
+    val lastUpdated: String,
+    val middleName: Any,
+    val optIn: OptIn,
+    val photos: List<Any>,
+    val primaryAddress: PrimaryAddress,
+    val profiles: List<Any>,
+    val statuses: List<Any>,
+    val title: Any,
+    val uuid: String
+)

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/time_words_tv"
+        android:layout_marginRight="16dp"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:textStyle="bold"
+        tools:text="Sat - Tue."/>
+
+    <TextView
+        android:id="@+id/time_numbers_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        android:textSize="12sp"
+        tools:text="8:00am - 7:00pm"/>
+
+</LinearLayout>

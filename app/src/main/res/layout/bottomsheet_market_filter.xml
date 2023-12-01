@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottomsheet_corners">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/bottomsheet_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_down_close"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/filter"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:lineSpacingExtra="2sp"
+            android:gravity="bottom" />
+        
+        <RadioGroup
+            android:id="@+id/radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="24dp"
+            android:layoutDirection="rtl"
+            android:textSize="16sp">
+            
+            <RadioButton
+                android:id="@+id/radio_alphabetical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/alphabetical" />
+
+            <RadioButton
+                android:id="@+id/radio_building"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/building" />
+
+            <RadioButton
+                android:id="@+id/radio_neighborhood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/neighborhood" />
+
+            <RadioButton
+                android:id="@+id/radio_shuttle_stop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/shuttle_stop" />
+            
+        </RadioGroup>
+
+        <LinearLayout
+            android:id="@+id/footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/footer_border">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/clear_filter"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@drawable/button_corners_white"
+                android:text="@string/clear"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:textColor="#F04F52"
+                android:gravity="center"
+                android:layout_marginStart="16dp"
+                android:layout_gravity="start|center"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/sort"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@drawable/button_corners_red"
+                android:text="@string/sort"
+                android:layout_gravity="end|center"
+                android:gravity="center"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:textColor="@color/white"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

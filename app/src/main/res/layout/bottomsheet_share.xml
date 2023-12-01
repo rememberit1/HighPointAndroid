@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="bottom"
+    android:background="@drawable/bottomsheet_corners">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginBottom="48dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_weight="0.8"
+                android:gravity="bottom"
+                android:lineSpacingExtra="2sp"
+                android:text="@string/share"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:translationY="1.11sp"
+                tools:text="Share" />
+
+            <ImageView
+                android:id="@+id/close_button"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_gravity="center"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/ic_x_close" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="24dp"
+            android:background="#F8F8F8"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/copy_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                tools:text="https://www.highpointmarket.com/vendors/premier-vendor-list/id?3383947347283472937482" />
+
+            <ImageButton
+                android:id="@+id/copy_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/share_corner"
+                android:src="@drawable/ic_copy" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

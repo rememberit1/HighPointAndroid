@@ -1,0 +1,30 @@
+package com.method.highpoint.model.exhibitor
+
+data class ExhibitorModel(
+    val buildingAddress: String?,
+    val buildingFloor: String?,
+    val buildingFloorSort: Int?,
+    val buildingId: Int?,
+    val buildingMultiTenant: Boolean?,
+    val buildingName: String?,
+    val buildingResourceCode: String?,
+    val buildingWing: String?,
+    val exhibitorAreaInterest: String?,
+    val exhibitorBustop: Int?,
+    val exhibitorBustopType: String?,
+    val exhibitorNeighborhood: String,
+    val exhibitorCountry: String?,
+    val exhibitorDescription: String?,
+    val exhibitorFacebook: String?,
+    val exhibitorId: Int?,
+    val exhibitorInstagram: String?,
+    val exhibitorLinkedin: String?,
+    val exhibitorName: String?,
+    val exhibitorPinterest: String?,
+    val exhibitorShowroom: String?,
+    val exhibitorShowroomPhone: String?,
+    val exhibitorStatus: Boolean?,
+    val exhibitorTwitter: String?,
+    val exhibitorWebsite: String?,
+    val exhibitorYoutube: String?
+)

@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottomsheet_corners">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        
+        <ImageView
+            android:id="@+id/bottomsheet_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_down_close"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="16dp" />
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/poi"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:lineSpacingExtra="2sp"
+            android:gravity="bottom" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/exhibitors"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:lineSpacingExtra="2sp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:gravity="bottom" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/all_exhibitors"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:background="@drawable/filter_exhibitor_all" />
+
+                <TextView
+                    android:id="@+id/text_all"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/all" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="36dp"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/my_market"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@null"
+                    android:background="@drawable/filter_exhibitor_market"/>
+
+                <TextView
+                    android:id="@+id/text_my_market"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/my_market" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="36dp"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/none"
+                    android:button="@null"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/filter_none"/>
+
+                <TextView
+                    android:id="@+id/text_none"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/none" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="380dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:background="#E6E6E6"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/routes"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:lineSpacingExtra="2sp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:gravity="bottom" />
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/all_routes"
+                        android:button="@null"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/filter_routes_all"/>
+
+                    <TextView
+                        android:id="@+id/route_all"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/all" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="36dp"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/red_line"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@null"
+                        android:background="@drawable/filter_routes_red_line"/>
+
+                    <TextView
+                        android:id="@+id/text_red_line"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/red_line" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="36dp"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/green_line"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@null"
+                        android:background="@drawable/filter_routes_green_line"/>
+
+                    <TextView
+                        android:id="@+id/text_green_line"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/green_line" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="36dp"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/none_line"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@null"
+                        android:background="@drawable/filter_none"/>
+
+                    <TextView
+                        android:id="@+id/text_none_line"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="8dp"
+                        android:text="@string/none" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <View
+            android:layout_width="380dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"
+            android:background="#E6E6E6"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp"
+            android:orientation="horizontal">
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/clear"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@drawable/button_corners_white"
+                android:text="@string/clear"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:textColor="#F04F52"
+                android:gravity="center"
+                android:layout_marginStart="16dp"
+                android:layout_gravity="start|center"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/show_results"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@drawable/button_corners_red"
+                android:text="@string/show_results"
+                android:layout_gravity="end|center"
+                android:gravity="center"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:textColor="@color/white"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp" />
+
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</FrameLayout>

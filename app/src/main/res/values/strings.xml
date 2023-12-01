@@ -1,0 +1,200 @@
+<resources>
+    <string name="app_name">HighPoint</string>
+    <string name="my_market">MyMarket</string>
+    <string name="exhibitors">Exhibitors</string>
+    <string name="events">Events</string>
+    <string name="map">Map</string>
+    <string name="about">About</string>
+    <string name="about_fragment">About Fragment</string>
+    <string name="exhibitors_fragment">Exhibitors Fragment</string>
+    <string name="events_fragment">Events Fragment</string>
+    <string name="map_fragment">Map Fragment</string>
+
+    <!--about screen-->
+    <string name="appointment_text">Please note: We strongly recommend scheduling appointments for any showrooms you intend to visit outside of these officially published hours.</string>
+    <string name="showroom_hours_detail">Saturday - Tuesday 8am - 7pm \nWednesday 8am - 5pm</string>
+    <string name="yes">Yes</string>
+    <string name="social_accounts">Instagram: @highpointmarket\n Facebook: @hpmkt\n Twitter: @hpmarketnews\n YouTube: High Point Market</string>
+    <string name="have_more_questions">Have more questions?</string>
+    <string name="experience_url">https://www.highpointmarket.org/ExperienceMarket/ThingsToDo</string>
+    <string name="privacy_site">https://www.highpointmarket.org/pdf/HP-Market-Privacy-Policy.pdf</string>
+    <string name="register_when">Can I register when I get there?</string>
+    <string name="showroom_hours">Showroom Hours</string>
+    <string name="market_dates">Market Dates</string>
+    <string name="experience_market">Experience Market</string>
+    <string name="things_to_do">Things to do</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="view_privacy_policy">View our Privacy Policy</string>
+    <string name="high_point_app">High Point App</string>
+    <string name="view_tutorial">View our App Tutorial</string>
+    <string name="where_high_point">Where is High Point?</string>
+    <string name="highpoint_located">High Point is located in the central part of the state of North Carolina. High Point is 70 miles north of Charlotte and 70 miles west of the Raleigh/Durham area. North Carolina is located on the east coast of the United States mid-way between Washington, DC and Atlanta, Georgia.</string>
+    <string name="address_gps">What address do I put into my GPS to find Market?</string>
+    <string name="parking_purposes"><![CDATA[For parking purposes use the Park & Ride Lot North - Oak Hollow Mall - 921 Eastchester Drive, High Point, NC 27262 or Park & Ride Lot South - Market Center Drive Area- 490 West Market Center Drive, High Point, NC 27260. Shuttle services operate to and from both Park & Ride lots to the Transportation Terminal at 210 East Commerce Ave., High Point, NC 27260. No parking is provided at the Transportation Terminal. Parking is limited downtown and some streets are closed so make sure you use the FREE shuttle service and Park & Ride.]]></string>
+    <string name="market_cost">How much do Market passes cost?</string>
+    <string name="onsite_register">There is an on-site registration fee of $30. Avoid paying this fee by registering before the pre- registration deadline.</string>
+    <string name="register_locations"><![CDATA[Yes, on-site registration is available at the following locations: C&D Bldg , IHFC, Market Square, 220 Elm, Showplace, Suites at Market Square, Furniture Plaza, Plaza Suites, International Buyers Center. Press registration is only available at the Media Center located on the second floor of the High Point Theatre at the Transportation Terminal. THERE WILL BE A $30 NON-REFUNDABLE ONSITE PROCESSING FEE FOR EACH BUYER AND INDUSTRY PASS REQUESTED AFTER ONLINE REGISTRATION CLOSES.]]></string>
+    <string name="showroom_hours_what">What are the showroom hours?</string>
+    <string name="are_you_open_on_sunday">Are you open on Sunday?</string>
+    <string name="public_shop">When can the public shop the High Point Market?</string>
+    <string name="open_trade">The High Point Market is open to the trade only.</string>
+    <string name="shuttles_cost">How much do shuttles from airports cost?</string>
+    <string name="airport_shuttles_are_free">Airport shuttles are free.</string>
+    <string name="lots_located">Where are parking lots located?</string>
+    <string name="south_park"><![CDATA[South Park & Ride Lot - 490 West Market Center Drive, High Point, NC 27260; North Park & Ride Lot Oak Hollow Mall, 921 Eastchester Drive, High Point, NC 27262. Free shuttles to downtown showroom district.]]></string>
+    <string name="what_social_accounts">What Are High Point Market\'s Social Accounts?</string>
+    <string name="can_i_take_photographs">Can I take photographs?</string>
+    <string name="many_showrooms">Many showrooms do not allow photography. Please ask at each showroom before you take photographs.</string>
+    <string name="chat_carolina">Chat with Carolina on our website or text 1.855.723.2691. Carolina is available to assist 24/7, year-round.</string>
+
+    <!--Exhibitor Screen-->
+
+    <string name="search_hint">Name, address, showroom,…</string>
+
+    <string name="website">Website</string>
+    <string name="share">Share</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="youtube">Youtube</string>
+    <string name="instagram">Instagram</string>
+    <string name="pintrest">Pintrest</string>
+
+    <string name="location">Location</string>
+    <string name="shuttle_stop">Shuttle Stop</string>
+    <string name="neighborhood">Neighborhood</string>
+
+    <string name="description_content">A &amp; B Home, Inc. is an international leader in the Home Décor, Accent Furniture, Garden and Seasonal Product businesses. With over 6000 current items, A &amp; B Home is known for creating and distributing over 1500 new products every season, combining on-trend designs and high quality at price points that deliver excellent value to the customer.
+
+A&amp;B Home is proud to announce the move into a NEW 335,000 sq. ft. warehouse in northern CA! With new distribution and logistics in place, we cannot wait to see what this quarter has to offer!</string>
+    <string name="notes_description">A &amp; B Home, Inc. is an international leader in the Home Décor, Accent Furniture, Garden and Seasonal Product businesses.</string>
+
+    <string name="navigate">Navigate</string>
+    <string name="add_event">Add to events</string>
+    <style name="schedule">Schedule</style>
+    <string name="favorite">Favorite</string>
+    <string name="add_notes">Add note</string>
+    <string name="create_note">Create Note</string>
+    <string name="clear">Clear</string>
+    <string name="delete">Delete</string>
+    <string name="save_notes">Save note</string>
+    <string name="delete_notes">Delete note</string>
+    <string name="delete_description">Are you sure you want to delete the existing note?</string>
+    <string name="keep_note">Keep note</string>
+    <string name="note">Note</string>
+
+    <string name="url_copied">URL Copied</string>
+    <string name="share_url">https://highpointmarket.org/exhibitor/details/%1$s</string>
+    <string name="time">Time</string>
+    <string name="type">Type</string>
+    <string name="search_events">Search events</string>
+    <string name="about_title">About</string>
+    <string name="reset_filters">Reset Filters</string>
+    <string name="show_results">Show Results</string>
+    <string name="filter">Filter</string>
+    <string name="categories">Categories</string>
+    <string name="style">Style</string>
+    <string name="price_point">Price point</string>
+    <string name="buildings">Buildings</string>
+    <string name="options">Options</string>
+    <string name="areas">Areas of Interest</string>
+    <string name="country">Country</string>
+    <string name="social">Social</string>
+    <string name="education">Education</string>
+    <string name="show_all_results">Show All Results</string>
+    <string name="visit_date">Select visit date</string>
+    <string name="added">Added</string>
+    <string name="added_to_events">Added to events</string>
+    <string name="added_to_favorites">Added to favorites</string>
+    <string name="event_added">Event added</string>
+    <string name="remove_event">Remove event</string>
+    <string name="remove_event_message">Are you sure you want to remove this event from your calendar?</string>
+    <string name="close">Close</string>
+    <string name="remove_vendor">Remove exhibitor</string>
+    <string name="remove_vendor_visit">Remove exhibitor visit</string>
+    <string name="remove_vendor_message">Do you want to remove this from your MyMarket list?</string>
+    <string name="remove_vendor_visit_message">Are you sure you want to remove this event from My Events?</string>
+    <string name="keep">Keep</string>
+    <string name="remove">Remove</string>
+    <string name="removed">Removed</string>
+    <string name="alphabetical">Alphabetical</string>
+    <string name="building">Building</string>
+    <string name="sort">Sort</string>
+    <string name="tutorial">Tutorial</string>
+
+    <string name="login_to_market">Login to MyMarket</string>
+    <string name="login_to_market_description">You must be logged in to add an exhibitor to MyMarket</string>
+    <string name="please_login">Please log in</string>
+    <string name="login_description">This action requires you to be logged in to a My Market account</string>
+    <string name="no_network">Unable to connect to a network</string>
+    <string name="no_network_description">We are unable to connect to a network to update the latest information</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- My Market Screen -->
+    <string name="plan_my_market_text">Plan Your Market with My Market</string>
+
+    <!-- Sign In & Registration Screen -->
+    <string name="sign_in_description">Sign in to add exhibitors to MyMarket for easy reference later. Your list will stay synced with highpointmarket.org</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="need_account">Need an account?</string>
+    <string name="register_here">Register Here</string>
+    <string name="registration">Registration</string>
+    <string name="password_requirement">Password must be at least 6 characters</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="switch_text">I am 18 years of age or older</string>
+    <string name="create_account_description">By Clicking “Create Account”, you confirm that you accept our terms of service and have read and understand our <a href="https://www.highpointmarket.org/pdf/HP-Market-Privacy-Policy.pdf" style="#F04F52">privacy policy</a>.</string>
+    <string name="create_account">Create Account</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="password_non_matching">Passwords do not match</string>
+    <string name="invalid_email">Please enter a valid email</string>
+    <string name="signin_error_title">There was a problem signing you in</string>
+    <string name="signin_error_description">We ran into an issue with your sign in. Retry signing in or try again later.</string>
+    <string name="registration_error_description">We ran into an issue while creating an account. Retry registering or try again later.</string>
+    <string name="registration_error_title">There was a problem creating an account </string>
+    <string name="ok">OK</string>
+    <string name="select_visit_date">Select visit date</string>
+    <string name="add_to_my_events">Add to My Events</string>
+    <string name="forgot_your_password">Forgot your password</string>
+    <string name="reset">Reset</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="forgot_description">Don’t worry it happens! Enter your email and we’ll send you a link to create a new one.</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="forgot_password_success">Password reset email has been sent!</string>
+    <string name="forgot_password_problem">There was a problem resetting your password</string>
+    <string name="forgot_password_problem_description">We ran into an issue while attempting to reset your password. Retry or try again later.</string>
+    <string name="find_discover">Find and discover exhibitors</string>
+    <string name="never_lose">Never lose your favorites</string>
+    <string name="plan_market">Plan ahead with MyMarket</string>
+    <string name="share_finds">Share your great finds</string>
+    <string name="see_where"><![CDATA[See where to go & never get lost]]></string>
+    <string name="search_for"> • Search for exhibitors you already know \n• Use filters to discover the products you\'re looking for</string>
+    <string name="love_your"> • ‘Love’ your favorite exhibitors \n• Take notes to save for later</string>
+    <string name="save_your"> • Save your favorite events &amp; exhibitors in your MyMarket schedule to keep your visit organized \n• Create an account to sync your list across Apple and Android devices, as well as highpointmarket.org</string>
+    <string name="send_events"> • Send events and exhibitors to your friends right from the app \n• Links open on the web directly or directly in the app to quickly add to your MyMarket schedule</string>
+    <string name="see_where_to"> • Discover Market locations, exhibitors and filter by your MyMarket stops \n• Google Maps integration allows seamless navigation to your destinations</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="finish">Finish</string>
+    <string name="sign_up_here">Sign Up Here</string>
+
+    <!-- Maps Screen -->
+    <string name="single_tenant">Single tenant</string>
+    <string name="multi_tenant">Multi tenant</string>
+    <string name="poi">Point of interest</string>
+    <string name="routes">Routes</string>
+    <string name="all">All</string>
+    <string name="none">None</string>
+    <string name="red_line">Red line</string>
+    <string name="green_line">Green line</string>
+
+    <string name="logout">Logout</string>
+    <string name="logout_description">Are you sure you want to logout?</string>
+    <string name="go_back">Go back</string>
+    <string name="empty_state_events">Looks like you haven’t\nadded any events yet</string>
+    <string name="empty_state_vendor">Looks like you haven’t\nadded any vendors yet</string>
+</resources>

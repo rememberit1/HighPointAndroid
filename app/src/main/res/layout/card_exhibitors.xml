@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:contentPadding="10dp"
+        android:layout_margin="8dp"
+        app:cardBackgroundColor="@color/background_gray"
+        app:strokeWidth="0dp"
+        android:padding="16dp"
+        app:cardCornerRadius="12dp"
+        android:foreground="?selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/exhibitor_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                tools:text="A &amp; B Home Group"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/location_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="IHFC - H315, H320, Floor 3"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="8dp"
+                android:textColor="#666666"
+                android:textSize="13sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/exhibitor_name" />
+
+            <ImageView
+                android:id="@+id/star"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:background="@drawable/ic_star_inactive"
+                android:tag=""
+                android:layout_margin="16dp" />
+
+            <com.google.android.material.chip.ChipGroup
+                android:id="@+id/user_chip_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/location_details"
+                android:layout_marginTop="8dp"
+                app:chipSpacing="4dp"
+                android:visibility="gone"
+                android:orientation="horizontal">
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/schedule"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:chipIcon="@drawable/ic_calendar_book"
+                    app:chipIconSize="12dp"
+                    app:closeIcon="@drawable/ic_x_chip"
+                    app:closeIconSize="12dp"
+                    app:closeIconVisible="true"
+                    tools:text="Fri. 1:30pm"
+                    android:textSize="14sp"
+                    android:text="@string/favorite"
+                    app:chipStrokeWidth="1dp"
+                    app:chipStrokeColor="#E6E6E6"
+                    app:chipBackgroundColor="@color/white"
+                    android:textColor="#3B3C3D"
+                    app:chipCornerRadius="8dp"
+                    app:chipIconTint="#F04F52"
+                    app:closeIconTint="#3B3C3D"
+                    android:visibility="gone" />
+
+                <com.google.android.material.chip.Chip
+                    android:id="@+id/favorite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:chipIcon="@drawable/ic_favorite_filled"
+                    app:chipIconSize="12dp"
+                    app:closeIcon="@drawable/ic_x_chip"
+                    app:closeIconEnabled="true"
+                    android:textSize="14sp"
+                    app:closeIconVisible="true"
+                    app:closeIconSize="12dp"
+                    tools:text="@string/favorite"
+                    android:text="@string/favorite"
+                    app:chipStrokeWidth="1dp"
+                    app:chipStrokeColor="#E6E6E6"
+                    app:chipBackgroundColor="@color/white"
+                    android:textColor="#3B3C3D"
+                    app:chipCornerRadius="8dp"
+                    app:chipIconTint="#F04F52"
+                    android:visibility="gone"
+                    app:closeIconTint="#3B3C3D" />
+
+            </com.google.android.material.chip.ChipGroup>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+</layout>

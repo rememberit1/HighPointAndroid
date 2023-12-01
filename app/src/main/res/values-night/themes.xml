@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.HighPoint" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#F04F52</item>-->
+        <item name="colorPrimaryVariant">#BA1A1A</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">#775654</item>
+        <item name="colorSecondaryVariant">#735A2E</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
