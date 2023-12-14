@@ -1,0 +1,1 @@
+Application for High Point Furniture Display Conference where users can see what is actively being displayed at what booth (in real time), with geolocation based mapping to where the furniture stores are located. Also with screening, filtering, Room Database data storage, advanced network calls, LiveData/Coroutines, custom UI integration and high security authentication. 
